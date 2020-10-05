@@ -1,0 +1,31 @@
+{
+    "devices": [
+        {
+            "device_type": "ucspe",
+            "hostname": "10.10.20.40",
+            "password": "password",
+            "username": "admin",
+            "read_only": false
+        },
+        {
+            "device_type": "ucspe",
+            "hostname": "10.10.20.50",
+            "password": "password",
+            "username": "admin",
+            "read_only": false
+        }
+    ],
+    "intersight_authentication": {
+        "secret_key_filename": "SecretKey.txt",
+        "api_key_id":"5eb31bf27564612d308f1511/5eb31bf27564612d308f151e/5f7b65917564612d314c8ad0"
+    },
+    "intersight_base_url": "https://www.intersight.com/api/v1/",
+    "intersight_roles": [
+        "%27Server%20Administrator%27,",
+        "%27UCS%20Domain%20Administrator%27,",
+        "%27Virtualization%20Administrator%27,",
+        "%27Storage%20Administrator%27,",
+        "%27Workflow%20Designer%27"
+    ],
+    "partner_id": "devnet-specialization-intersight-6"
+}
